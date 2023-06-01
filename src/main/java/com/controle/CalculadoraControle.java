@@ -20,20 +20,20 @@ public class CalculadoraControle {
         
         double resultado = 0;
         if (operacao.equals("adicao")) {
-            resultado = calculadora.getAdicao();
+            resultado = calculadora.getSoma();
             System.out.println("A = " + valorA + " + B = " + valorB + " Resultado: " + resultado);
         } else {
             if (operacao.equals("subtracao")) {
-                resultado = calculadora.getSubtracao();
+                resultado = calculadora.getDiferenca();
                 System.out.println("A = " + valorA + " - B = " + valorB + " Resultado: " + resultado);
 
             } else {
-                if (operacao.equals("produto")) {
+                if (operacao.equals("multiplicacao")) {
                     resultado = calculadora.getProduto();
                     System.out.println("A = " + valorA + " * B = " + valorB + " Resultado: " + resultado);
                 } else {
                     if (operacao.equals("divisao")) {
-                        resultado = calculadora.getDivisao();
+                        resultado = calculadora.getQuociente();
                         System.out.println("A = " + valorA + " / B = " + valorB + " Resultado: " + resultado);
                     }
                 }

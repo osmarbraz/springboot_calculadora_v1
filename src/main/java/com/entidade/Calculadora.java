@@ -49,7 +49,7 @@ public class Calculadora {
      *
      * @return Um valor real.
      */
-    public double getAdicao() {
+    public double getSoma() {
         return (getValorA() + getValorB());
     }
 
@@ -58,12 +58,12 @@ public class Calculadora {
      *
      * @return Um valor real.
      */
-    public double getSubtracao() {
+    public double getDiferenca() {
         return (getValorA() - getValorB());
     }
 
     /**
-     * Realiza o produto.
+     * Realiza a multiplicação.
      *
      * @return Um valor real.
      */
@@ -76,7 +76,7 @@ public class Calculadora {
      *
      * @return Um valor real.
      */
-    public double getDivisao() {
+    public double getQuociente() {
         return (getValorA() / getValorB());
     }
 }
